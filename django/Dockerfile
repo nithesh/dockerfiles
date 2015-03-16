@@ -10,4 +10,4 @@ WORKDIR $APP_ROOT
 
 EXPOSE 8000
 
-CMD pip install -r requirements.txt && python manage.py runserver
+CMD pip install -r requirements.txt && python manage.py runserver 0.0.0.0:8000
